@@ -27,13 +27,18 @@ Before running the unit tests launch the [app.py]{.title-ref}.
 To run only the api tests
 
 ``` {.bash}
-~$ python unittests/ApiTests.py
+~$ python ApiTests.py
+```
+To  test logging
+
+``` {.bash}
+~$ python logger.py
 ```
 
 To run only the model tests
 
 ``` {.bash}
-~$ python unittests/ModelTests.py
+~$ python ModelTests.py
 ```
 
 To run all of the tests
@@ -41,3 +46,9 @@ To run all of the tests
 ``` {.bash}
 ~$ python run-tests.py
 ```
+To do the monitoring 
+
+``` {.bash}
+~$ python monitoring.py
+```
+Docker file is also created
